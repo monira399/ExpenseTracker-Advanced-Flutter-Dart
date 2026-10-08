@@ -1,9 +1,10 @@
-import 'package:expense_tracker/provider/auth_provider.dart';
-import 'package:expense_tracker/provider/category_provider.dart';
-import 'package:expense_tracker/provider/profile_provider.dart';
-import 'package:expense_tracker/provider/transaction_provider.dart';
-import 'package:expense_tracker/screens/splashscreen.dart';
-import 'package:expense_tracker/utils/app_color.dart';
+
+import 'package:expense_tracker_advanced/provider/auth_provider.dart';
+import 'package:expense_tracker_advanced/provider/category_provider.dart';
+import 'package:expense_tracker_advanced/provider/profile_provider.dart';
+import 'package:expense_tracker_advanced/provider/transaction_provider.dart';
+import 'package:expense_tracker_advanced/screens/splashscreen.dart';
+import 'package:expense_tracker_advanced/utils/app_color.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';

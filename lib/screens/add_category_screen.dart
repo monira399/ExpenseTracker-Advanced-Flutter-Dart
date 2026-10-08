@@ -8,6 +8,9 @@ import 'package:flutter/material.dart';
 import 'package:expense_tracker/data/category_icons.dart';
 import 'package:provider/provider.dart';
 
+import '../models/category_model.dart';
+import '../models/transaction_model.dart';
+
 class AddCategoryScreen extends StatefulWidget {
   final bool isIncome;
   final CategoryModel? category;

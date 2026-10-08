@@ -1,6 +1,8 @@
-import 'package:expense_tracker/models/transaction_model.dart';
-import 'package:expense_tracker/services/transaction_service.dart';
+
 import 'package:flutter/material.dart';
+
+import '../models/transaction_model.dart';
+import '../services/transaction_service.dart';
 
 class TransactionProvider extends ChangeNotifier {
   final TransactionService _transactionService = TransactionService();

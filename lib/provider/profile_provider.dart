@@ -1,7 +1,8 @@
 import 'dart:io';
 import 'package:image_picker/image_picker.dart';
-import 'package:expense_tracker/services/profile_service.dart';
 import 'package:flutter/cupertino.dart';
+
+import '../services/profile_service.dart';
 
 class ProfileProvider extends ChangeNotifier {
   final ProfileService _profileService = ProfileService();
